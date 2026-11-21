@@ -1,0 +1,820 @@
+
+Welcome to .NET 10.0!
+---------------------
+SDK Version: 10.0.403
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate, run 'dotnet dev-certs https --trust'
+Learn about HTTPS: https://aka.ms/dotnet-https
+
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+Checking the state of installed workloads...
+Pack Microsoft.iOS.Sdk.net10.0_27.1 version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net10.0_27.1 version 27.1.10018...
+Pack Microsoft.iOS.Sdk.net9.0_18.0 version 18.0.9617 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net9.0_18.0 version 18.0.9617...
+Pack Microsoft.iOS.Sdk.net9.0_26.5 version 26.5.9004 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net9.0_26.5 version 26.5.9004...
+Pack Microsoft.iOS.Sdk.net10.0_26.0 version 26.0.11017 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net10.0_26.0 version 26.0.11017...
+Pack Microsoft.iOS.Ref.net10.0_27.1 version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Ref.net10.0_27.1 version 27.1.10018...
+Pack Microsoft.iOS.Runtime.ios.net10.0_27.1 version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Runtime.ios.net10.0_27.1 version 27.1.10018...
+Pack Microsoft.iOS.Runtime.iossimulator-x64.net10.0_27.1 version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Runtime.iossimulator-x64.net10.0_27.1 version 27.1.10018...
+Pack Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_27.1 version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_27.1 version 27.1.10018...
+Pack Microsoft.iOS.Runtime.ios-arm64.net10.0_27.1 version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Runtime.ios-arm64.net10.0_27.1 version 27.1.10018...
+Pack Microsoft.iOS.Templates version 27.1.10018 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Templates version 27.1.10018...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 10.0.14...
+Pack Microsoft.NET.Runtime.MonoAOTCompiler.Task version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoAOTCompiler.Task version 10.0.14...
+Pack Microsoft.NET.Runtime.MonoTargets.Sdk version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoTargets.Sdk version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 9.0.22...
+Pack Microsoft.NET.Runtime.MonoAOTCompiler.Task version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoAOTCompiler.Task version 9.0.22...
+Pack Microsoft.NET.Runtime.MonoTargets.Sdk version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoTargets.Sdk version 9.0.22...
+Pack Microsoft.Android.Sdk.Darwin version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Sdk.Darwin version 36.1.118...
+Pack Microsoft.Android.Sdk.Darwin version 35.0.105 is already installed.
+Writing workload pack installation record for Microsoft.Android.Sdk.Darwin version 35.0.105...
+Pack Microsoft.Android.Ref.36 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Ref.36 version 36.1.118...
+Pack Microsoft.Android.Runtime.36.android version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.36.android version 36.1.118...
+Pack Microsoft.Android.Runtime.Mono.36.android-arm version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-arm version 36.1.118...
+Pack Microsoft.Android.Runtime.Mono.36.android-arm64 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-arm64 version 36.1.118...
+Pack Microsoft.Android.Runtime.Mono.36.android-x86 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-x86 version 36.1.118...
+Pack Microsoft.Android.Runtime.Mono.36.android-x64 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-x64 version 36.1.118...
+Pack Microsoft.Android.Runtime.CoreCLR.36.android-arm64 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.CoreCLR.36.android-arm64 version 36.1.118...
+Pack Microsoft.Android.Runtime.CoreCLR.36.android-x64 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.CoreCLR.36.android-x64 version 36.1.118...
+Pack Microsoft.Android.Runtime.NativeAOT.36.android-arm64 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.NativeAOT.36.android-arm64 version 36.1.118...
+Pack Microsoft.Android.Runtime.NativeAOT.36.android-x64 version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Runtime.NativeAOT.36.android-x64 version 36.1.118...
+Pack Microsoft.Android.Templates version 36.1.118 is already installed.
+Writing workload pack installation record for Microsoft.Android.Templates version 36.1.118...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-arm version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-x64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-x86 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x86 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 9.0.22 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 9.0.22...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-arm version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-x64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.Mono.android-x86 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x86 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 10.0.14...
+Pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 10.0.14 is already installed.
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 10.0.14...
+----------------
+
+Installing workload version 10.0.302.1.
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workloads.10.0.300/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workloads.10.0.300/index.json 214ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workloads.10.0.300/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workloads.10.0.300/index.json 22ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workloads.10.0.300/10.302.1/microsoft.net.workloads.10.0.300.10.302.1.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workloads.10.0.300/10.302.1/microsoft.net.workloads.10.0.300.10.302.1.nupkg 35ms
+Skipping NuGet package signature verification.
+Installing workload manifest microsoft.net.workload.emscripten.current version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.current.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.current.manifest-10.0.100/index.json 70ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.current.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.current.manifest-10.0.100/index.json 58ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.current.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.current.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.current.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.current.manifest-10.0.100.10.0.110.nupkg 32ms
+Installing workload manifest microsoft.net.workload.emscripten.net6 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net6.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net6.manifest-10.0.100/index.json 70ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net6.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net6.manifest-10.0.100/index.json 49ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net6.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net6.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net6.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net6.manifest-10.0.100.10.0.110.nupkg 30ms
+Installing workload manifest microsoft.net.workload.emscripten.net7 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net7.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net7.manifest-10.0.100/index.json 73ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net7.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net7.manifest-10.0.100/index.json 46ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net7.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net7.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net7.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net7.manifest-10.0.100.10.0.110.nupkg 25ms
+Installing workload manifest microsoft.net.workload.emscripten.net8 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net8.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net8.manifest-10.0.100/index.json 71ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net8.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net8.manifest-10.0.100/index.json 49ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net8.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net8.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net8.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net8.manifest-10.0.100.10.0.110.nupkg 31ms
+Installing workload manifest microsoft.net.workload.emscripten.net9 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net9.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.emscripten.net9.manifest-10.0.100/index.json 73ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net9.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net9.manifest-10.0.100/index.json 45ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net9.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net9.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.emscripten.net9.manifest-10.0.100/10.0.110/microsoft.net.workload.emscripten.net9.manifest-10.0.100.10.0.110.nupkg 27ms
+Installing workload manifest microsoft.net.sdk.android version 36.1.69...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.android.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.android.manifest-10.0.100/index.json 72ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.android.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.android.manifest-10.0.100/index.json 50ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.android.manifest-10.0.100/36.1.69/microsoft.net.sdk.android.manifest-10.0.100.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.android.manifest-10.0.100/36.1.69/microsoft.net.sdk.android.manifest-10.0.100.36.1.69.nupkg 37ms
+Installing workload manifest microsoft.net.sdk.ios version 26.5.10315...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.ios.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.ios.manifest-10.0.100/index.json 72ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.ios.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.ios.manifest-10.0.100/index.json 48ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.ios.manifest-10.0.100/26.5.10315/microsoft.net.sdk.ios.manifest-10.0.100.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.ios.manifest-10.0.100/26.5.10315/microsoft.net.sdk.ios.manifest-10.0.100.26.5.10315.nupkg 34ms
+Installing workload manifest microsoft.net.sdk.maccatalyst version 26.5.10315...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.maccatalyst.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.maccatalyst.manifest-10.0.100/index.json 73ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maccatalyst.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maccatalyst.manifest-10.0.100/index.json 49ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maccatalyst.manifest-10.0.100/26.5.10315/microsoft.net.sdk.maccatalyst.manifest-10.0.100.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maccatalyst.manifest-10.0.100/26.5.10315/microsoft.net.sdk.maccatalyst.manifest-10.0.100.26.5.10315.nupkg 34ms
+Installing workload manifest microsoft.net.sdk.macos version 26.5.10315...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.macos.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.macos.manifest-10.0.100/index.json 71ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.macos.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.macos.manifest-10.0.100/index.json 51ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.macos.manifest-10.0.100/26.5.10315/microsoft.net.sdk.macos.manifest-10.0.100.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.macos.manifest-10.0.100/26.5.10315/microsoft.net.sdk.macos.manifest-10.0.100.26.5.10315.nupkg 38ms
+Installing workload manifest microsoft.net.sdk.maui version 10.0.20...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.maui.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.maui.manifest-10.0.100/index.json 77ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maui.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maui.manifest-10.0.100/index.json 49ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maui.manifest-10.0.100/10.0.20/microsoft.net.sdk.maui.manifest-10.0.100.10.0.20.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.maui.manifest-10.0.100/10.0.20/microsoft.net.sdk.maui.manifest-10.0.100.10.0.20.nupkg 28ms
+Installing workload manifest microsoft.net.sdk.tvos version 26.5.10315...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.tvos.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.sdk.tvos.manifest-10.0.100/index.json 70ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.tvos.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.tvos.manifest-10.0.100/index.json 48ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.tvos.manifest-10.0.100/26.5.10315/microsoft.net.sdk.tvos.manifest-10.0.100.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.sdk.tvos.manifest-10.0.100/26.5.10315/microsoft.net.sdk.tvos.manifest-10.0.100.26.5.10315.nupkg 30ms
+Installing workload manifest microsoft.net.workload.mono.toolchain.current version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100/index.json 73ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100/index.json 47ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.current.manifest-10.0.100.10.0.110.nupkg 27ms
+Installing workload manifest microsoft.net.workload.mono.toolchain.net6 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100/index.json 71ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100/index.json 47ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net6.manifest-10.0.100.10.0.110.nupkg 29ms
+Installing workload manifest microsoft.net.workload.mono.toolchain.net7 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100/index.json 72ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100/index.json 45ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net7.manifest-10.0.100.10.0.110.nupkg 28ms
+Installing workload manifest microsoft.net.workload.mono.toolchain.net8 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100/index.json 71ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100/index.json 46ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net8.manifest-10.0.100.10.0.110.nupkg 30ms
+Installing workload manifest microsoft.net.workload.mono.toolchain.net9 version 10.0.110...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100/index.json 73ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100/index.json 50ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100.10.0.110.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100/10.0.110/microsoft.net.workload.mono.toolchain.net9.manifest-10.0.100.10.0.110.nupkg 26ms
+Pack Microsoft.iOS.Sdk.net9.0_18.0 version 18.0.9617 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net9.0_18.0 version 18.0.9617...
+Pack Microsoft.iOS.Sdk.net9.0_26.5 version 26.5.9004 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net9.0_26.5 version 26.5.9004...
+Pack Microsoft.iOS.Sdk.net10.0_26.0 version 26.0.11017 is already installed.
+Writing workload pack installation record for Microsoft.iOS.Sdk.net10.0_26.0 version 26.0.11017...
+Pack Microsoft.Android.Sdk.Darwin version 35.0.105 is already installed.
+Writing workload pack installation record for Microsoft.Android.Sdk.Darwin version 35.0.105...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-arm/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.sdk.net10.0_26.5/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.coreclr.36.android-x64/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.ios-arm64.net10.0_26.5/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-arm/index.json 84ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.coreclr.36.android-x64/index.json 155ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/index.json 167ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.sdk.net10.0_26.5/index.json 171ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json 178ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json 179ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/index.json 179ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json 182ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.ios-arm64.net10.0_26.5/index.json 199ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios-arm64.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm/index.json 116ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm/36.1.69/microsoft.android.runtime.mono.36.android-arm.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-x64/index.json 52ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-x64/36.1.69/microsoft.android.runtime.coreclr.36.android-x64.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_26.5/index.json 54ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_26.5/26.5.10315/microsoft.ios.sdk.net10.0_26.5.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-x64/36.1.69/microsoft.android.runtime.coreclr.36.android-x64.36.1.69.nupkg 25ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm/36.1.69/microsoft.android.runtime.mono.36.android-arm.36.1.69.nupkg 32ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/6.0.0-preview.4.21253.7/7.0.12.json 76ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json 53ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm.9.0.18.nupkg
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios-arm64.net10.0_26.5/index.json 49ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios-arm64.net10.0_26.5/26.5.10315/microsoft.ios.runtime.ios-arm64.net10.0_26.5.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json 76ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json 80ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_26.5/26.5.10315/microsoft.ios.sdk.net10.0_26.5.26.5.10315.nupkg 48ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm.9.0.18.nupkg 47ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios-arm64.net10.0_26.5/26.5.10315/microsoft.ios.runtime.ios-arm64.net10.0_26.5.26.5.10315.nupkg 52ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json 129ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/index.json 377ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/6.0.0-preview.1.21102.12/7.0.9.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/7.0.13/9.0.3.json 127ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/7.0.13/9.0.3.json 130ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/7.0.13/9.0.3.json 130ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64.9.0.18.nupkg 102ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/6.0.0-preview.1.21102.12/7.0.9.json 79ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/7.0.10/9.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/9.0.4/11.0.0.json 129ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/9.0.4/11.0.0.json 145ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/7.0.10/9.0.0.json 84ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/9.0.4/11.0.0.json 148ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/9.0.1/11.0.0.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/index.json 110ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/10.0.10/microsoft.netcore.app.runtime.mono.android-x86.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json 88ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/10.0.10/microsoft.netcore.app.runtime.mono.iossimulator-arm64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/index.json 111ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/9.0.18/microsoft.netcore.app.runtime.mono.android-arm64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/9.0.1/11.0.0.json 105ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/10.0.10/microsoft.netcore.app.runtime.mono.android-x86.10.0.10.nupkg 59ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/9.0.18/microsoft.netcore.app.runtime.mono.android-arm64.9.0.18.nupkg 44ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/10.0.10/microsoft.netcore.app.runtime.mono.iossimulator-arm64.10.0.10.nupkg 76ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/index.json 188ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/9.0.18/microsoft.net.runtime.monoaotcompiler.task.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/9.0.18/microsoft.net.runtime.monoaotcompiler.task.9.0.18.nupkg 204ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/index.json 234ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/6.0.0-preview.7.21377.19/7.0.15.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/6.0.0-preview.7.21377.19/7.0.15.json 250ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/7.0.16/9.0.6.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/7.0.16/9.0.6.json 243ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/9.0.7/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/9.0.7/11.0.0.json 222ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/index.json 152ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/9.0.18/microsoft.net.runtime.monotargets.sdk.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/9.0.18/microsoft.net.runtime.monotargets.sdk.9.0.18.nupkg 191ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-arm64/index.json 147ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm64/index.json 106ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm64/36.1.69/microsoft.android.runtime.mono.36.android-arm64.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-arm64/36.1.69/microsoft.android.runtime.mono.36.android-arm64.36.1.69.nupkg 97ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.sdk.darwin/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.sdk.darwin/index.json 203ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.sdk.darwin/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.sdk.darwin/index.json 108ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.sdk.darwin/36.1.69/microsoft.android.sdk.darwin.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.sdk.darwin/36.1.69/microsoft.android.sdk.darwin.36.1.69.nupkg 171ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/index.json 71ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/6.0.0-preview.4.21253.7/7.0.12.json 80ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/7.0.13/9.0.3.json 95ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/9.0.4/11.0.0.json 76ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/index.json 36ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/9.0.18/microsoft.netcore.app.runtime.mono.android-x64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/9.0.18/microsoft.netcore.app.runtime.mono.android-x64.9.0.18.nupkg 30ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/index.json 249ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/page/14.5.100-preview.4.635/16.4.7098.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/page/14.5.100-preview.4.635/16.4.7098.json 224ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/page/16.4.7099/18.5.10727-net10-rc.1.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/page/16.4.7099/18.5.10727-net10-rc.1.json 185ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/page/26.0.9251-xcode26.0/27.2.11039.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.templates/page/26.0.9251-xcode26.0/27.2.11039.json 168ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.templates/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.templates/index.json 110ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.templates/26.5.10315/microsoft.ios.templates.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.templates/26.5.10315/microsoft.ios.templates.26.5.10315.nupkg 123ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-x86/index.json 164ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x86/index.json 119ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x86/36.1.69/microsoft.android.runtime.mono.36.android-x86.36.1.69.nupkg
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x86/36.1.69/microsoft.android.runtime.mono.36.android-x86.36.1.69.nupkg 147ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json 213ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json 109ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64.10.0.10.nupkg 132ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/index.json 80ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/6.0.0-preview.4.21253.7/7.0.12.json 72ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/7.0.13/9.0.3.json 106ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x86/page/9.0.4/11.0.0.json 79ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/index.json 37ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/9.0.18/microsoft.netcore.app.runtime.mono.android-x86.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x86/9.0.18/microsoft.netcore.app.runtime.mono.android-x86.9.0.18.nupkg 32ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.nativeaot.36.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.nativeaot.36.android-arm64/index.json 195ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-arm64/index.json 151ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-arm64/36.1.69/microsoft.android.runtime.nativeaot.36.android-arm64.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-arm64/36.1.69/microsoft.android.runtime.nativeaot.36.android-arm64.36.1.69.nupkg 218ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.mono.36.android-x64/index.json 154ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x64/index.json 96ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x64/36.1.69/microsoft.android.runtime.mono.36.android-x64.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.mono.36.android-x64/36.1.69/microsoft.android.runtime.mono.36.android-x64.36.1.69.nupkg 131ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.nativeaot.36.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.nativeaot.36.android-x64/index.json 237ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-x64/index.json 150ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-x64/36.1.69/microsoft.android.runtime.nativeaot.36.android-x64.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.nativeaot.36.android-x64/36.1.69/microsoft.android.runtime.nativeaot.36.android-x64.36.1.69.nupkg 186ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.templates/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.templates/index.json 217ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.templates/index.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.templates/index.json 91ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.templates/36.1.69/microsoft.android.templates.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json 80ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.templates/36.1.69/microsoft.android.templates.36.1.69.nupkg 63ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json 30ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86.9.0.18.nupkg 32ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/index.json 127ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/6.0.0-preview.4.21253.7/7.0.12.json 143ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/7.0.13/9.0.3.json 162ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/9.0.4/11.0.0.json 153ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/index.json 115ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/9.0.18/microsoft.netcore.app.runtime.mono.android-arm.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/9.0.18/microsoft.netcore.app.runtime.mono.android-arm.9.0.18.nupkg 125ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.coreclr.36.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.coreclr.36.android-arm64/index.json 147ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-arm64/index.json 103ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-arm64/36.1.69/microsoft.android.runtime.coreclr.36.android-arm64.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.coreclr.36.android-arm64/36.1.69/microsoft.android.runtime.coreclr.36.android-arm64.36.1.69.nupkg 137ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json 92ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json 26ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64.9.0.18.nupkg 35ms
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-x64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-x86 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x86 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 9.0.18...
+Installing pack Microsoft.Android.Runtime.Mono.36.android-arm version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-arm version 36.1.69...
+Installing pack Microsoft.Android.Runtime.Mono.36.android-arm64 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-arm64 version 36.1.69...
+Installing pack Microsoft.Android.Runtime.Mono.36.android-x86 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-x86 version 36.1.69...
+Installing pack Microsoft.Android.Runtime.Mono.36.android-x64 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.Mono.36.android-x64 version 36.1.69...
+Installing pack Microsoft.Android.Runtime.CoreCLR.36.android-arm64 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.CoreCLR.36.android-arm64 version 36.1.69...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json 104ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/6.0.0-preview.4.21253.7/7.0.12.json 90ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/7.0.13/9.0.3.json 110ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/9.0.4/11.0.0.json 115ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json 171ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/10.0.10/microsoft.netcore.app.runtime.mono.iossimulator-x64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/10.0.10/microsoft.netcore.app.runtime.mono.iossimulator-x64.10.0.10.nupkg 123ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json 138ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/index.json 146ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x86.10.0.10.nupkg 82ms
+Installing pack Microsoft.Android.Runtime.CoreCLR.36.android-x64 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.CoreCLR.36.android-x64 version 36.1.69...
+Installing pack Microsoft.Android.Runtime.NativeAOT.36.android-arm64 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.NativeAOT.36.android-arm64 version 36.1.69...
+Installing pack Microsoft.Android.Runtime.NativeAOT.36.android-x64 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.NativeAOT.36.android-x64 version 36.1.69...
+Installing pack Microsoft.Android.Templates version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Templates version 36.1.69...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-arm version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm version 9.0.18...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.sdk.net10.0_27.0/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.sdk.net10.0_27.0/index.json 146ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_27.0/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_27.0/index.json 71ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_27.0/27.0.10417-xcode27.0/microsoft.ios.sdk.net10.0_27.0.27.0.10417-xcode27.0.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.sdk.net10.0_27.0/27.0.10417-xcode27.0/microsoft.ios.sdk.net10.0_27.0.27.0.10417-xcode27.0.nupkg 84ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json 122ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json 112ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64.9.0.18.nupkg 44ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json 240ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json 109ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64.9.0.18.nupkg 54ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/index.json 167ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/6.0.0-preview.1.21102.12/7.0.9.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/6.0.0-preview.1.21102.12/7.0.9.json 119ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/7.0.10/9.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/7.0.10/9.0.0.json 116ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/9.0.1/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monoaotcompiler.task/page/9.0.1/11.0.0.json 124ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/index.json 160ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/10.0.10/microsoft.net.runtime.monoaotcompiler.task.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monoaotcompiler.task/10.0.10/microsoft.net.runtime.monoaotcompiler.task.10.0.10.nupkg 113ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/index.json 126ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/6.0.0-preview.7.21377.19/7.0.15.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/6.0.0-preview.7.21377.19/7.0.15.json 125ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/7.0.16/9.0.6.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/7.0.16/9.0.6.json 117ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/9.0.7/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.net.runtime.monotargets.sdk/page/9.0.7/11.0.0.json 134ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/index.json 98ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/10.0.10/microsoft.net.runtime.monotargets.sdk.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.net.runtime.monotargets.sdk/10.0.10/microsoft.net.runtime.monotargets.sdk.10.0.10.nupkg 99ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json 117ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/index.json 95ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-arm64.10.0.10.nupkg 90ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json 149ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/index.json 117ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64/9.0.18/microsoft.netcore.app.runtime.aot.osx-arm64.cross.ios-arm64.9.0.18.nupkg 101ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json 121ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/index.json 154ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-x64.10.0.10.nupkg 90ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.ref.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.ref.net10.0_26.5/index.json 125ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.ref.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.ref.net10.0_26.5/index.json 129ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.ref.net10.0_26.5/26.5.10315/microsoft.ios.ref.net10.0_26.5.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.ref.net10.0_26.5/26.5.10315/microsoft.ios.ref.net10.0_26.5.26.5.10315.nupkg 61ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/index.json 229ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json 110ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/7.0.13/9.0.3.json 117ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/9.0.4/11.0.0.json 124ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/index.json 159ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/9.0.18/microsoft.netcore.app.runtime.mono.ios-arm64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/9.0.18/microsoft.netcore.app.runtime.mono.ios-arm64.9.0.18.nupkg 86ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/index.json 113ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/6.0.0-preview.4.21253.7/7.0.12.json 108ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/7.0.13/9.0.3.json 125ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm/page/9.0.4/11.0.0.json 100ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/index.json 53ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/10.0.10/microsoft.netcore.app.runtime.mono.android-arm.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm/10.0.10/microsoft.netcore.app.runtime.mono.android-arm.10.0.10.nupkg 68ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.ios.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.ios.net10.0_26.5/index.json 134ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios.net10.0_26.5/index.json 136ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios.net10.0_26.5/26.5.10315/microsoft.ios.runtime.ios.net10.0_26.5.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.ios.net10.0_26.5/26.5.10315/microsoft.ios.runtime.ios.net10.0_26.5.26.5.10315.nupkg 89ms
+Installing pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 10.0.10...
+Installing pack Microsoft.NET.Runtime.MonoAOTCompiler.Task version 10.0.10...
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoAOTCompiler.Task version 10.0.10...
+Installing pack Microsoft.NET.Runtime.MonoTargets.Sdk version 10.0.10...
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoTargets.Sdk version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 9.0.18...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json 119ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/index.json 75ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.iossimulator-x64.10.0.10.nupkg 54ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json 130ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/index.json 112ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm.10.0.10.nupkg 62ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json 121ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json 124ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/7.0.13/9.0.3.json 102ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/index.json 100ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-arm64/page/9.0.4/11.0.0.json 81ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json 85ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/index.json 57ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/9.0.18/microsoft.netcore.app.runtime.mono.iossimulator-arm64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-arm64/9.0.18/microsoft.netcore.app.runtime.mono.iossimulator-arm64.9.0.18.nupkg 40ms
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/7.0.13/9.0.3.json 78ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-arm64/page/9.0.4/11.0.0.json 90ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/index.json 57ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/10.0.10/microsoft.netcore.app.runtime.mono.android-arm64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-arm64/10.0.10/microsoft.netcore.app.runtime.mono.android-arm64.10.0.10.nupkg 82ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5/index.json 126ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5/index.json 104ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5/26.5.10315/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5/26.5.10315/microsoft.ios.runtime.iossimulator-x64.net10.0_26.5.26.5.10315.nupkg 41ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5/index.json 367ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5/index.json 144ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5/26.5.10315/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5.26.5.10315.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5/26.5.10315/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.5.26.5.10315.nupkg 80ms
+Installing pack Microsoft.iOS.Sdk.net10.0_26.5 version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Sdk.net10.0_26.5 version 26.5.10315...
+Installing pack Microsoft.iOS.Sdk.net10.0_27.0 version 27.0.10417-xcode27.0...
+Writing workload pack installation record for Microsoft.iOS.Sdk.net10.0_27.0 version 27.0.10417-xcode27.0...
+Installing pack Microsoft.iOS.Ref.net10.0_26.5 version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Ref.net10.0_26.5 version 26.5.10315...
+Installing pack Microsoft.iOS.Runtime.ios.net10.0_26.5 version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Runtime.ios.net10.0_26.5 version 26.5.10315...
+Installing pack Microsoft.iOS.Runtime.iossimulator-x64.net10.0_26.5 version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Runtime.iossimulator-x64.net10.0_26.5 version 26.5.10315...
+Installing pack Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_26.5 version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_26.5 version 26.5.10315...
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json 88ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/6.0.0-preview.4.21253.7/7.0.12.json 95ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/7.0.13/9.0.3.json 96ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.iossimulator-x64/page/9.0.4/11.0.0.json 84ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/index.json 35ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/9.0.18/microsoft.netcore.app.runtime.mono.iossimulator-x64.9.0.18.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.iossimulator-x64/9.0.18/microsoft.netcore.app.runtime.mono.iossimulator-x64.9.0.18.nupkg 48ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.ref.36/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.ref.36/index.json 112ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.ref.36/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.ref.36/index.json 117ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.ref.36/36.1.69/microsoft.android.ref.36.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.ref.36/36.1.69/microsoft.android.ref.36.36.1.69.nupkg 62ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/index.json 111ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/6.0.0-preview.4.21253.7/7.0.12.json 293ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/7.0.13/9.0.3.json 102ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.android-x64/page/9.0.4/11.0.0.json 114ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/index.json 100ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/10.0.10/microsoft.netcore.app.runtime.mono.android-x64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.android-x64/10.0.10/microsoft.netcore.app.runtime.mono.android-x64.10.0.10.nupkg 74ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/index.json 88ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/6.0.0-preview.4.21253.7/7.0.12.json 164ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/7.0.13/9.0.3.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/7.0.13/9.0.3.json 91ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/9.0.4/11.0.0.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.mono.ios-arm64/page/9.0.4/11.0.0.json 88ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/index.json 57ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/10.0.10/microsoft.netcore.app.runtime.mono.ios-arm64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.mono.ios-arm64/10.0.10/microsoft.netcore.app.runtime.mono.ios-arm64.10.0.10.nupkg 46ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json 111ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/index.json 267ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64.10.0.10.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64/10.0.10/microsoft.netcore.app.runtime.aot.osx-arm64.cross.android-arm64.10.0.10.nupkg 56ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.36.android/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.android.runtime.36.android/index.json 257ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.36.android/index.json
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.36.android/index.json 82ms
+[NuGet Manager] [Info]   GET https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.36.android/36.1.69/microsoft.android.runtime.36.android.36.1.69.nupkg
+[NuGet Manager] [Info]   OK https://api.nuget.org/v3-flatcontainer/microsoft.android.runtime.36.android/36.1.69/microsoft.android.runtime.36.android.36.1.69.nupkg 70ms
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-arm version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-arm64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-x64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-arm64 version 9.0.18...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 9.0.18...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64 version 9.0.18...
+Installing pack Microsoft.NET.Runtime.MonoAOTCompiler.Task version 9.0.18...
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoAOTCompiler.Task version 9.0.18...
+Installing pack Microsoft.NET.Runtime.MonoTargets.Sdk version 9.0.18...
+Writing workload pack installation record for Microsoft.NET.Runtime.MonoTargets.Sdk version 9.0.18...
+Installing pack Microsoft.Android.Sdk.Darwin version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Sdk.Darwin version 36.1.69...
+Installing pack Microsoft.iOS.Runtime.ios-arm64.net10.0_26.5 version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Runtime.ios-arm64.net10.0_26.5 version 26.5.10315...
+Installing pack Microsoft.Android.Ref.36 version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Ref.36 version 36.1.69...
+Installing pack Microsoft.iOS.Templates version 26.5.10315...
+Writing workload pack installation record for Microsoft.iOS.Templates version 26.5.10315...
+Installing pack Microsoft.Android.Runtime.36.android version 36.1.69...
+Writing workload pack installation record for Microsoft.Android.Runtime.36.android version 36.1.69...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.ios-arm64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-arm64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.iossimulator-x64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.ios-arm64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.Mono.android-x86 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.Mono.android-x86 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x86 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-x64 version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm version 10.0.10...
+Installing pack Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 10.0.10...
+Writing workload pack installation record for Microsoft.NETCore.App.Runtime.AOT.osx-arm64.Cross.android-arm64 version 10.0.10...
+Garbage collecting for SDK feature band(s) 9.0.300 10.0.400...
+Deleting workload version 10.0.403.
+Uninstalling workload manifest microsoft.net.sdk.tvos version 27.0.10742/10.0.100...
+Uninstalling workload manifest microsoft.net.sdk.android version 36.1.118/10.0.100...
+Uninstalling workload manifest microsoft.net.sdk.maui version 10.0.110/10.0.100...
+Uninstalling workload manifest microsoft.net.sdk.macos version 27.0.10742/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.emscripten.current version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.mono.toolchain.net6 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.mono.toolchain.net8 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.sdk.maccatalyst version 27.0.10742/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.mono.toolchain.net9 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.mono.toolchain.net7 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.emscripten.net8 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.emscripten.net6 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.sdk.ios version 27.1.10018/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.mono.toolchain.current version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.emscripten.net7 version 10.0.114/10.0.100...
+Uninstalling workload manifest microsoft.net.workload.emscripten.net7 version 10.0.109/10.0.100...
+Warning: Workload garbage collection failed with error: System.IO.DirectoryNotFoundException: Could not find a part of the path '/usr/local/share/dotnet/sdk-manifests/10.0.100/microsoft.net.workload.emscripten.net7/10.0.109'.
+   at System.IO.FileSystem.RemoveEmptyDirectory(String fullPath, Boolean topLevel, Boolean throwWhenNotEmpty)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at Microsoft.DotNet.Cli.Commands.Workload.Install.FileBasedInstaller.GarbageCollect(Func`2 getResolverForWorkloadSet, Nullable`1 offlineCache, Boolean cleanAllPacks)
+   at Microsoft.DotNet.Cli.Commands.Workload.Install.WorkloadInstallCommand.TryRunGarbageCollection(IInstaller workloadInstaller, IReporter reporter, VerbosityOptions verbosity, Func`2 getResolverForWorkloadSet, Nullable`1 offlineCache).
+
+Successfully updated workload(s): ios android.
+

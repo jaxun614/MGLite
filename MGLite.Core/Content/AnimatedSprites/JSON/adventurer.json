@@ -1,0 +1,110 @@
+{
+    "textures": [
+        {
+            "filename": "../SpriteAtlases/adventurer.png",
+            "frames": {
+                "adventurer-a-00": {
+                    "frame": {"x":2,"y":2,"w":23,"h":49},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":4,"y":3},
+                    "pivot": {"x":0.5,"y":1},
+                    "rotated": 90
+                },
+                "adventurer-a-01": {
+                    "frame": {"x":29,"y":0,"w":20,"h":35},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":3},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-a-02": {
+                    "frame": {"x":53,"y":0,"w":20,"h":35},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":17},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-a-03": {
+                    "frame": {"x":77,"y":2,"w":19,"h":31},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":3},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-a-04": {
+                    "frame": {"x":29,"y":39,"w":28,"h":23},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":2,"y":3},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-a-05": {
+                    "frame": {"x":61,"y":39,"w":27,"h":23},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":2,"y":29},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-a-06": {
+                    "frame": {"x":92,"y":37,"w":28,"h":25},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":2,"y":27},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-00": {
+                    "frame": {"x":100,"y":2,"w":25,"h":28},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":3,"y":24},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-01": {
+                    "frame": {"x":129,"y":2,"w":23,"h":27},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":4,"y":25},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-02": {
+                    "frame": {"x":156,"y":2,"w":20,"h":27},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":25},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-03": {
+                    "frame": {"x":180,"y":2,"w":20,"h":26},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":26},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-04": {
+                    "frame": {"x":204,"y":2,"w":20,"h":25},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":27},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-05": {
+                    "frame": {"x":124,"y":34,"w":20,"h":28},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":24},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-06": {
+                    "frame": {"x":148,"y":33,"w":20,"h":27},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":25},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-07": {
+                    "frame": {"x":172,"y":33,"w":20,"h":26},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":26},
+                    "pivot": {"x":0.5,"y":1}
+                },
+                "adventurer-b-08": {
+                    "frame": {"x":196,"y":32,"w":20,"h":25},
+                    "size": {"w":32,"h":52},
+                    "offset": {"x":6,"y":27},
+                    "pivot": {"x":0.5,"y":1}
+                }
+            }
+        }
+    ],
+    "meta": {
+        "dataformat": "monogame-extended",
+        "version": "1.2"
+    }
+}

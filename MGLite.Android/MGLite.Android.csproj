@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <ApplicationId>com.companyname.MGLite.Android</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
+    <PackageReference Include="MonoGame.Framework.Android" Version="3.8.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MGLite.Core\MGLite.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="..\MGLite.Core\Content\Content.mgcb"
+                              Link="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="..\..\Extended\Extended\ZeEngine\SharedContent\SharedContent.mgcb"
+                              Link="SharedContent\SharedContent.mgcb" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MonoGameExtendedPipelineReferencePath>$(MSBuildThisFileDirectory)../pipeline-references</MonoGameExtendedPipelineReferencePath>
+  </PropertyGroup>
+</Project>

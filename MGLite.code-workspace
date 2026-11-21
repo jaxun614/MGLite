@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "ZeEngine",
+			"path": "../Extended/Extended/ZeEngine"
+		}
+	],
+	"settings": {}
+}

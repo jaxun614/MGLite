@@ -1,0 +1,26 @@
+android
+in MGLite Terminal: emulator -avd Pixel_API36 -no-snapshot-save
+in new Terminal run: adb devices
+then in the new terminal run: dotnet build MGLite.Android -t:Run -f net10.0-android
+
+
+iOS
+xcrun simctl list devices available   # find a UDID
+xcrun simctl boot <UDID>
+open -a Simulator
+
+dotnet build MGLite.iOS -t:Run -f net10.0-ios -p:RuntimeIdentifier=iossimulator-arm64
+
+taget specific: dotnet build MGLite.iOS -t:Run -f net10.0-ios -p:RuntimeIdentifier=iossimulator-arm64 -p:_DeviceName=:v2:udid=<UDID>
+
+
+desktop
+dotnet run --project MGLite.Desktop
+
+
+
+clearing old builds
+rm -rf MGLite.iOS/bin MGLite.iOS/obj MGLite.Core/bin MGLite.Core/obj
+rm -rf ../Extended/Extended/ZeEngine/bin ../Extended/Extended/ZeEngine/obj
+dotnet restore MGLite.iOS -p:RuntimeIdentifier=iossimulator-arm64
+dotnet build MGLite.iOS -f net10.0-ios -p:RuntimeIdentifier=iossimulator-arm64
