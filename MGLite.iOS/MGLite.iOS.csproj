@@ -17,7 +17,7 @@
                               Link="Content\Content.mgcb" />
   </ItemGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\..\Extended\Extended\ZeEngine\SharedContent\SharedContent.mgcb"
+    <MonoGameContentReference Include="..\ZeEngine\SharedContent\SharedContent.mgcb"
                               Link="SharedContent\SharedContent.mgcb" />
   </ItemGroup>
   <PropertyGroup>

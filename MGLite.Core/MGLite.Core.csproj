@@ -9,7 +9,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../../Extended/Extended/ZeEngine/ZeEngine.csproj" />
+    <ProjectReference Include="../ZeEngine/ZeEngine.csproj" />
     <PackageReference Include="Gum.MonoGame" Version="2026.5.8.1" />
 
   </ItemGroup>
@@ -20,7 +20,7 @@
     <MonoGameExtendedPipelineReferencePath>$(MSBuildThisFileDirectory)../pipeline-references</MonoGameExtendedPipelineReferencePath>
   </PropertyGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\..\Extended\Extended\ZeEngine\SharedContent\SharedContent.mgcb"
+    <MonoGameContentReference Include="..\ZeEngine\SharedContent\SharedContent.mgcb"
                               Link="SharedContent\SharedContent.mgcb" />
   </ItemGroup>
 </Project>

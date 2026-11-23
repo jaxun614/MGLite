@@ -3,4 +3,5 @@
   <Project Path="MGLite.Core/MGLite.Core.csproj" />
   <Project Path="MGLite.Desktop/MGLite.Desktop.csproj" />
   <Project Path="MGLite.iOS/MGLite.iOS.csproj" />
+  <Project Path="ZeEngine/ZeEngine.csproj" />
 </Solution>
