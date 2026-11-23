@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="../../Extended/Extended/ZeEngine/ZeEngine.csproj" />
     <PackageReference Include="Gum.MonoGame" Version="2026.5.8.1" />
+    <PackageReference Include="LiteNetLib" Version="2.1.4" />
 
   </ItemGroup>
   <PropertyGroup>
