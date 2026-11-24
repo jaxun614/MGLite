@@ -7,6 +7,7 @@
     <PackageReference Include="MonoGame.Framework.Native" Version="3.8.*">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="xunit" Version="2.9.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../ZeEngine/ZeEngine.csproj" />
@@ -20,7 +21,6 @@
     <MonoGameExtendedPipelineReferencePath>$(MSBuildThisFileDirectory)../pipeline-references</MonoGameExtendedPipelineReferencePath>
   </PropertyGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\ZeEngine\SharedContent\SharedContent.mgcb"
-                              Link="SharedContent\SharedContent.mgcb" />
+    <MonoGameContentReference Include="..\ZeEngine\SharedContent\SharedContent.mgcb" Link="SharedContent\SharedContent.mgcb" />
   </ItemGroup>
 </Project>

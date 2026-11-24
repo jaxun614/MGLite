@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/ZeEngine/" />
+  <Folder Name="/ZeEngine/Networking/">
+    <Project Path="ZeEngine/ZeEngine.Tests/ZeEngine.Tests.csproj" />
+  </Folder>
   <Project Path="MGLite.Android/MGLite.Android.csproj" />
   <Project Path="MGLite.Core/MGLite.Core.csproj" />
   <Project Path="MGLite.Desktop/MGLite.Desktop.csproj" />

@@ -5,6 +5,7 @@ using ZeEngine;
 using MGLite.Scenes;
 using MonoGame.Extended;
 using System;
+using MGLite.Net;
 using MonoGame.Extended.Screens;
 
 namespace MGLite;
@@ -22,6 +23,8 @@ public class MGLiteGame : Core
         // TODO: Add your initialization logic here
 
         base.Initialize();
+
+        GameMessages.Register(Network);
     }
 
     protected override void LoadContent()
