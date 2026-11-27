@@ -1,113 +1,168 @@
-# ZeEngine
+# MGLite
 
-A small engine layer on top of [MonoGame](https://monogame.net). It is meant to
-be consumed by a game project (see [MGLite](https://github.com/jaxun614/MGLite)).
+A [MonoGame](https://monogame.net) starter project for 2D games that run on **desktop, Android and iOS** from one shared codebase. It comes with LAN multiplayer, 2D lighting, scenes with transitions, saves and a debug UI already wired up, so you can start building your game instead of your plumbing.
 
-## What's in it
+MGLite is the game project. The reusable engine code lives in a separate repository, [ZeEngine](https://github.com/jaxun614/ZeEngine1), which is included here as a git submodule.
 
-- `Core` — a singleton `Game` subclass that owns the graphics device, sprite
-  batch, content managers, input, audio and networking
-- Scenes with animated transitions (`Scene`, `SceneTransition`)
-- Hot-reloadable shaders (`Material`, `WatchedAsset<T>`) — debug builds only
-- 2D deferred lighting: normal buffer, point lights, stencil shadow hulls
-- Sprites, animation, texture atlas, tilemap, nine-slice
-- Input (keyboard, mouse, gamepad), audio controller
-- JSON save/load for players and worlds
-- LAN multiplayer: a message-based TCP layer (one host, many clients) and UDP broadcast server discovery
-- ImGui debug UI (desktop only; skipped on Android and iOS, see `Core.IsImGuiSupported`)
+## What you get
 
-## Using it
+- **Cross-platform heads** for Desktop (DesktopGL), Android and iOS, all sharing one `MGLite.Core` project
+- **Scenes** with animated, shader-based transitions
+- **LAN multiplayer**: one host, many clients, typed messages, and automatic server discovery on the local network
+- **2D deferred lighting**: normal buffer, point lights and shadow hulls
+- **Hot-reloadable shaders** (debug builds, desktop)
+- Sprites, animation, texture atlases, tilemaps (Tiled) and nine-slice panels
+- Keyboard, mouse and gamepad input, and an audio controller
+- JSON save and load for players and worlds
+- **ImGui** debug UI (desktop only; skipped on Android and iOS)
+- A working **network demo scene** you can use as a reference
 
-Add it to your game repo as a submodule:
+## Repository layout
 
-    git submodule add https://github.com/jaxun614/ZeEngine1.git ZeEngine
+```
+MGLite.Core/         Shared game code, scenes, content and network messages
+MGLite.Desktop/      Windows / macOS / Linux head
+MGLite.Android/      Android head
+MGLite.iOS/          iOS head
+ZeEngine/            Engine (git submodule)
+pipeline-references/ MonoGame.Extended content pipeline DLLs
+MGLite.slnx          Solution file
+```
 
-Reference the project, and build the shared content (shaders and transition
-textures) from each platform head project:
+## Prerequisites
 
-    <ProjectReference Include="../ZeEngine/ZeEngine.csproj" />
+All platforms:
 
-    <MonoGameContentReference Include="..\ZeEngine\SharedContent\SharedContent.mgcb"
-                              Link="SharedContent\SharedContent.mgcb" />
+- [.NET 10 SDK](https://dotnet.microsoft.com/download)
+- Git
 
-Then derive from `Core`:
+Optional, only for the platforms you target:
 
-    public class MyGame : ZeEngine.Core
-    {
-        public MyGame() : base("My Game", 1080, 720, false) { }
+- **Android:** the Android workload (`dotnet workload install android`), the Android SDK, and an emulator or device
+- **iOS:** a Mac with Xcode and the iOS workload (`dotnet workload install ios`)
 
-        protected override void LoadContent()
-        {
-            base.LoadContent();
-            ChangeScene(new MyFirstScene());
-        }
-    }
+## Getting the code
 
-The `SharedContent` folder is built by the game project, not by this library,
-so the `.mgcb` must be referenced from every platform head.
+The engine is a submodule, so clone with `--recurse-submodules`:
 
-## Networking
+```bash
+git clone --recurse-submodules https://github.com/jaxun614/MGLite.git
+cd MGLite
+```
 
-`Core.Network` (`NetworkManager`) is a small message layer on TCP: one host, up to `MaxPeers`
-clients, typed messages, and everything delivered on the game thread. You never touch a socket
-or a lock.
+If you already cloned without it (the `ZeEngine/` folder will be empty), run:
 
-Define a message, register it, and handle it:
+```bash
+git submodule update --init --recursive
+```
 
-    public sealed class PositionMessage : INetMessage
-    {
-        public float X, Y;
-        public void Write(NetWriter w) { w.Write(X); w.Write(Y); }
-        public void Read(NetReader r)  { X = r.ReadSingle(); Y = r.ReadSingle(); }
-    }
+## Running
 
-    // once, at startup. Ids 16-255 are yours; both sides must agree on them.
-    Core.Network.GameId = "my-game";                 // different game ids refuse to connect
-    Core.Network.Register<PositionMessage>(16);
-    Core.Network.On<PositionMessage>((from, msg) => positions[from] = new Vector2(msg.X, msg.Y));
+### Desktop
 
-    Core.Network.PeerConnected    += id => ...;               // a client joined (host) / we are in (client)
-    Core.Network.PeerDisconnected += (id, reason) => ...;
-    Core.Network.ConnectionFailed += reason => ...;           // Core.Network.Status explains in words
+```bash
+dotnet run --project MGLite.Desktop
+```
 
-Then host or join, and send:
+### Android
 
-    Core.Network.Host();                        // returns false if the port is taken
-    Core.Network.Connect("192.168.1.20");       // returns immediately; watch the events
+Start an emulator (replace the AVD name with yours), confirm it is visible, then build and run:
 
-    Core.Network.Send(new PositionMessage { X = 10, Y = 20 });   // host: to all clients. client: to the host.
+```bash
+emulator -avd Pixel_API36 -no-snapshot-save
+adb devices
+dotnet build MGLite.Android -t:Run -f net10.0-android
+```
 
-How it behaves:
+### iOS (simulator)
 
-- **Peer ids.** The host is always `0`. Clients get `1`, `2`, `3`... as they join, and an id is
-  not reused in one session. `LocalPeerId` is your own.
-- **Who talks to whom.** Clients talk to the host. To let clients see each other, relay on the
-  host with `SendToAllExcept(from, msg)`. The host can also `SendTo(peerId, msg)` and `Kick(peerId)`.
-- **Threading.** Sockets run on background tasks. Events and messages are queued and delivered
-  from `Update()`, which `Core` calls every frame, so handlers can touch game state freely.
-- **Delivery.** Reliable and ordered per connection (it is TCP). Messages are capped at
-  `MaxMessageSize` (16 KB).
-- **Bad peers.** A message that cannot be read, an oversized frame, or a handshake from a
-  different game or version drops that peer with a reason. It never throws into your game.
-- **Dead connections.** Pings run in the background; a peer silent for `IdleTimeout` (10 s) is
-  dropped with `NetDisconnectReason.Timeout`.
-- **Stopping.** `Stop()` tells every peer why and raises no events for connections you closed
-  yourself. Events still queued from the old session are discarded.
+```bash
+xcrun simctl list devices available    # find a device UDID
+xcrun simctl boot <UDID>
+open -a Simulator
 
-Advertise a host on the LAN with `Core.Discovery`:
+dotnet build MGLite.iOS -t:Run -f net10.0-ios -p:RuntimeIdentifier=iossimulator-arm64
+```
 
-    Core.Discovery.StartAnnouncing("My game", "World 1", Core.Network.LocalPort,
-                                   Core.Network.MaxPeers + 1, () => Core.Network.PeerCount + 1);
+To target a specific simulator, add `-p:_DeviceName=:v2:udid=<UDID>`.
 
-Tests live in `ZeEngine.Tests` (`dotnet test ZeEngine.Tests`); they run real sockets on localhost.
+### Editing content
 
-> **Upgrading:** the old `NetworkManager` sent one hard-coded position per packet
-> (`Send(Vector2)` / `TryGetRemote`). That API is gone. The example above is the equivalent.
+Game assets are built by the MonoGame content pipeline from `MGLite.Core/Content/Content.mgcb`. To open the visual content editor:
 
-## Layout
+```bash
+dotnet tool restore
+dotnet mgcb-editor MGLite.Core/Content/Content.mgcb
+```
 
-    ZeEngine.csproj
-    Core.cs                 game singleton
-    Audio/ Content/ Graphics/ ImGui/ Input/ Networking/ Saves/ Scenes/
-    ZeEngine.Tests/         unit and socket tests (xunit)
-    SharedContent/          engine shaders + transition textures (.mgcb)
+## Try the network demo
+
+Launch the game and press **N** on the title screen to open the network test scene. Run a second copy of the game (on the same machine or on another device on the same network).
+
+| Key | Action |
+| --- | --- |
+| `H` | Host a game |
+| `J` | Join a host by address |
+| `1`–`9` | Pick a game from the on-screen list |
+| `WASD` / arrows | Move your avatar |
+| `C` | Send a chat message |
+| `Space` | Ping |
+| `K` | Kick the newest player (host only) |
+| `Esc` | Leave the scene |
+
+The scene source is in `MGLite.Core/Scenes/NetworkTestScene.cs`.
+
+## Making it your own
+
+1. **Rename the game.** Change the title in `MGLiteGame` (`base("MGLite", 1080, 720, false)`), and update the app names and identifiers in the Android and iOS projects.
+2. **Set your game ID.** In `MGLite.Core/Net/GameMessages.cs`, change `GameId`. Hosts and clients with different IDs refuse to connect, which keeps different games from talking to each other.
+3. **Add your own messages.** A message is a small class that writes and reads its fields in the same order. Give it an id of **16 or higher** (0–15 are reserved by the engine) in `GameMessages.Register`:
+
+   ```csharp
+   public sealed class PositionMessage : INetMessage
+   {
+       public int PlayerId;
+       public float X, Y;
+
+       public void Write(NetWriter w) { w.Write(PlayerId); w.Write(X); w.Write(Y); }
+       public void Read(NetReader r)  { PlayerId = r.ReadInt32(); X = r.ReadSingle(); Y = r.ReadSingle(); }
+   }
+
+   net.Register<PositionMessage>(16);
+   Core.Network.On<PositionMessage>((from, msg) => { /* update game state */ });
+   ```
+
+4. **Replace the scenes.** `TitleScene` is the entry point set in `MGLiteGame.LoadContent` via `ChangeScene(...)`. Derive your own scenes from `ZeEngine.Scenes.Scene`.
+
+Network handlers run on the game thread, so they can touch game state directly. For the full networking API (peer ids, relaying, kicking, timeouts, discovery), see the [ZeEngine README](https://github.com/jaxun614/ZeEngine1).
+
+## Tests
+
+The engine's tests run real sockets on localhost:
+
+```bash
+dotnet test ZeEngine/ZeEngine.Tests
+```
+
+## Troubleshooting
+
+- **Build errors about missing `ZeEngine` files:** the submodule is not checked out. Run `git submodule update --init --recursive`.
+- **Stale iOS builds:** clear old output and restore again:
+
+  ```bash
+  rm -rf MGLite.iOS/bin MGLite.iOS/obj MGLite.Core/bin MGLite.Core/obj
+  rm -rf ZeEngine/bin ZeEngine/obj
+  dotnet restore MGLite.iOS -p:RuntimeIdentifier=iossimulator-arm64
+  dotnet build MGLite.iOS -f net10.0-ios -p:RuntimeIdentifier=iossimulator-arm64
+  ```
+
+- **No debug UI on a phone:** this is expected. ImGui only ships native libraries for desktop, so `Core.ImGuiRenderer` is `null` on Android and iOS. Check `Core.IsImGuiSupported` before using it.
+
+## Limitations
+
+- Networking is TCP and aimed at LAN play. There is no encryption or authentication, and clients talk only to the host (the host can relay between them).
+- Messages are capped at 16 KB.
+
+## License
+
+No license has been chosen yet. Until one is added, the default copyright rules apply and others cannot legally reuse this code. Add a `LICENSE` file (for example MIT) before sharing the project as a template.
